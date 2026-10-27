@@ -1,0 +1,30 @@
+{
+  "loudnorm": "I=-16:TP=-1.5:LRA=11",
+  "sampleRate": 48000,
+  "locales": {
+    "es": {
+      "v1":  { "source": "voice 1a.mp3", "dialogue": "D1 · The problem (introduces Alex)" },
+      "v2":  { "source": "voice 2.mp3", "dialogue": "D2 · Same document, different needs" },
+      "v3":  { "source": "voice 3.mp3", "dialogue": "D3 · From source to learning (how it works)" },
+      "v4":  { "source": "voice 4.mp3", "dialogue": "D4 · The solution" },
+      "v5a": { "source": "voice 5a.mp3", "dialogue": "D5A · The product in action" },
+      "v5b": { "source": "voice 5b.mp3", "dialogue": "D5B · One source, many ways to learn" },
+      "v6":  { "source": "voice 6.mp3", "dialogue": "D6 · Vision and team",
+               "cut": [[19.98, 21.92], [36.55, 37.43]],
+               "note": "The narrator read two stage directions aloud ('Mientras aparecen los países', 'Cierre'); they are cut at silence boundaries found with silencedetect." },
+      "v7":  { "source": "voice  7.mp3", "dialogue": "D7 · Impact (brings Alex back)" },
+      "v8":  { "source": "voice 8.mp3", "dialogue": "D8 · Closing" }
+    },
+    "en": {
+      "v1":  { "source": "voice   english 1 martin.mp3", "dialogue": "D1 · The problem (introduces Martin)" },
+      "v2":  { "source": "voice english 2.mp3", "dialogue": "D2 · Same knowledge, different needs" },
+      "v3":  { "source": "voice english 4a.mp3", "dialogue": "D3 · How it works" },
+      "v4":  { "source": "voice english 3.mp3", "dialogue": "D4 · The solution (plays before D3 in English)" },
+      "v5a": { "source": "voice english 5a.mp3", "dialogue": "D5A · The product in action" },
+      "v5b": { "source": "voice english 5b.mp3", "dialogue": "D5B · One source, many ways to learn" },
+      "v6":  { "source": "voice english 6.mp3", "dialogue": "D6 · The company and the team" },
+      "v7":  { "source": "voice english 7 martin.mp3", "dialogue": "D7 · Impact" },
+      "v8":  { "source": "voice english 8.mp3", "dialogue": "D8 · Final statement" }
+    }
+  }
+}

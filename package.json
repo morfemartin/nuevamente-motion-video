@@ -1,0 +1,40 @@
+{
+  "name": "nuevamente-motion-video",
+  "private": true,
+  "scripts": {
+    "setup": "npm run audio && npm run sfx",
+    "audio": "python3 scripts/prepare_audio.py",
+    "sfx": "bash scripts/generate_sfx.sh",
+    "transcribe": "python3 scripts/transcribe.py",
+    "studio": "remotion studio src/index.ts",
+    "studio:en": "remotion studio src/index.ts --props='{\"locale\":\"en\"}'",
+    "render:es": "remotion render src/index.ts NuevaMente out/NuevaMente_es.mp4 --codec=h264 --crf=18 --audio-bitrate=320k --props='{\"locale\":\"es\"}'",
+    "render:en": "remotion render src/index.ts NuevaMente out/NuevaMente_en.mp4 --codec=h264 --crf=18 --audio-bitrate=320k --props='{\"locale\":\"en\"}'",
+    "render": "npm run render:es && npm run render:en",
+    "srt": "node scripts/export_srt.mjs",
+    "thumbnails": "node scripts/thumbnails.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@types/d3-geo": "^3.1.1",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
+    "lucide-react": "0.468.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.538",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  },
+  "description": "Programmatic motion-graphics explainer for NuevaMente, rendered from React with Remotion in Spanish and English.",
+  "license": "MIT"
+}

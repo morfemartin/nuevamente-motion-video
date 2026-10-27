@@ -1,0 +1,54 @@
+[
+  {
+    "id": "s1",
+    "voice": "v1",
+    "pre": 1.2,
+    "tail": 0.8
+  },
+  {
+    "id": "s2",
+    "voice": "v2",
+    "pre": 0.6,
+    "tail": 0.9
+  },
+  {
+    "id": "s4",
+    "voice": "v4",
+    "pre": 0.6,
+    "tail": 0.9
+  },
+  {
+    "id": "s3",
+    "voice": "v3",
+    "pre": 0.6,
+    "tail": 1.2
+  },
+  {
+    "id": "s5",
+    "voice": "v5a",
+    "pre": 0.8,
+    "tail": 1.2,
+    "extra": {
+      "voice": "v5b",
+      "gap": 0.8
+    }
+  },
+  {
+    "id": "s6",
+    "voice": "v6",
+    "pre": 1.0,
+    "tail": 0.9
+  },
+  {
+    "id": "s7",
+    "voice": "v7",
+    "pre": 1.0,
+    "tail": 0.6
+  },
+  {
+    "id": "s8",
+    "voice": "v8",
+    "pre": 0.4,
+    "tail": 11.5
+  }
+]
