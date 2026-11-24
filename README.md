@@ -4,6 +4,8 @@ A ~5-minute product explainer for **NuevaMente**, built entirely in code: React 
 
 No video editor was used. Every frame, caption and sound effect is reproducible from this repository.
 
+**Watch the result:** the delivered Spanish and English cuts and their YouTube thumbnails are in the [v1.0 release](https://github.com/morfemartin/nuevamente-motion-video/releases/tag/v1.0).
+
 | | |
 |---|---|
 | ![Prism and logo](docs/images/prism.jpg) | ![Product demo: quiz](docs/images/demo.jpg) |
